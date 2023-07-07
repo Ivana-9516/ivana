@@ -6,7 +6,7 @@ p{
     color: blue;
 }
 h4#title{
-    font-size: 32px;
+    font-size: 10px;
 }
 table,
 tr,
@@ -19,13 +19,23 @@ th{
     color:black;
     background-color: #fff8d2;
 }
+html,
+body{
+    height: 100px;
+}
 div{
     display: flex;
+    height: 30%;
     background-color: aqua;
     justify-content: center;
     align-items: center;
     //flex-direction: column;
-    width: 80;
+    width: 85;
+}
+
+div{
+    width: 210px;
+    height: 30px;
     h4{
         margin: 10px;
         color: blueviolet;
@@ -36,4 +46,22 @@ div{
         color: chocolate;
         font-weight: 900;
     }
+
 }
+div#aa{
+    display: flex;
+    div#a{
+        background-color: red;
+        width: 30rem;
+    }
+    div#b{
+        background-color: yellow;
+        width: 30rem;
+    }
+    div#c{
+        background-color: blue;
+        width: 30rem;
+    }
+}
+
+    

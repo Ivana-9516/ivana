@@ -8,7 +8,7 @@ p {
 }
 
 h4#title {
-  font-size: 32px;
+  font-size: 10px;
 }
 
 table,
@@ -24,12 +24,23 @@ th {
   background-color: #fff8d2;
 }
 
+html,
+body {
+  height: 100px;
+}
+
 div {
   display: flex;
+  height: 30%;
   background-color: aqua;
   justify-content: center;
   align-items: center;
-  width: 80;
+  width: 85;
+}
+
+div {
+  width: 210px;
+  height: 30px;
 }
 div h4 {
   margin: 10px;
@@ -40,4 +51,20 @@ div p {
   margin: 10px;
   color: chocolate;
   font-weight: 900;
+}
+
+div#aa {
+  display: flex;
+}
+div#aa div#a {
+  background-color: red;
+  width: 30rem;
+}
+div#aa div#b {
+  background-color: yellow;
+  width: 30rem;
+}
+div#aa div#c {
+  background-color: blue;
+  width: 30rem;
 }/*# sourceMappingURL=style.css.map */
